@@ -1,3 +1,4 @@
+-- Table Creation
 create table register_user
 (First_name varchar2(250),
  Last_name varchar2(250),
