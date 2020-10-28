@@ -7,7 +7,7 @@ create table register_user
  pnone_number varchar2(10),
  country varchar2(100),
  address varchar2(1000))
--- Adding Sequence to tabl
+-- Adding Sequence to table
  create sequence register_user
 minvalue 1
 maxvalue 999999999999999999999999999
