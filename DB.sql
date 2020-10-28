@@ -7,3 +7,10 @@ create table register_user
  pnone_number varchar2(10),
  country varchar2(100),
  address varchar2(1000))
+-- Adding Sequence to tabl
+ create sequence SCOTT.register_user
+minvalue 1
+maxvalue 999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
