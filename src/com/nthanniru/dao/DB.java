@@ -55,7 +55,7 @@ public class DB {
 		Connection con = null;
 		try {
 			 Class.forName("org.postgresql.Driver");
-	         con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres", "postgres");
+	         con = DriverManager.getConnection("jdbc:postgresql://172.31.55.71:5432/postgres","postgres", "postgres");
 	         
 			//Class.forName("oracle.jdbc.driver.OracleDriver");
 			//con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "scott", "tiger");
