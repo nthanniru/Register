@@ -1,7 +1,7 @@
 -- Table Creation
 create table register_user
 (First_name varchar2(250),
- Last_name varchar2(250),
+ Last_name varchar2(350),
  gender varchar2(10),
  eamil varchar2 (250),
  password varchar2(250),
