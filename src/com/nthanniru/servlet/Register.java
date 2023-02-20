@@ -26,11 +26,6 @@ public class Register extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 		String fn = request.getParameter("First_Name");
-
-
-		// Added Line One
-		// Added Line Two
-
 		String ln = request.getParameter("Last_Name");
 		String g = request.getParameter("Gender");
 		String e = request.getParameter("Email");
