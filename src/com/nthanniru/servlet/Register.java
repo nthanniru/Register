@@ -25,13 +25,13 @@ public class Register extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 
-		String fn = request.getParameter("First_Name");
+		String fn = request.getParameter("raveena");
 		String ln = request.getParameter("Last_Name");
 		String g = request.getParameter("Gender");
 		String e = request.getParameter("Email");
 		String p = request.getParameter("Password");
 		String ph = request.getParameter("Phone_Number");
-		String c = request.getParameter("Country");
+		String c = request.getParameter("india");
 		String a = request.getParameter("Address");
 		try {
 			Connection con = DB.getCon();
