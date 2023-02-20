@@ -31,6 +31,7 @@ public class Register extends HttpServlet {
 		Added Line  3
 		Added Line  4
 	        Added Line  5
+		Added Line  6
 		String ln = request.getParameter("Last_Name");
 		String g = request.getParameter("Gender");
 		String e = request.getParameter("Email");
