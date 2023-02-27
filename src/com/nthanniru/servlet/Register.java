@@ -48,7 +48,7 @@ public class Register extends HttpServlet {
 			int i = ps.executeUpdate();
 			if (i > 0)
 				out.print("You are successfully registered with us, we will get back to you soon... \n"
-						+ "mean while,if you have any queries please recah out us on naresht.info@gmail.com");
+						+ "mean while,if you have any queries please recah out us on NTHANNIRU@gmail.com");
 
 		} catch (Exception e2) {
 			System.out.println(e2);
